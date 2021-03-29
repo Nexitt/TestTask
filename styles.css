@@ -1,0 +1,66 @@
+.headerBank {
+    font-weight:bold;
+    font-size: 1.5em;
+    color:  #231f20;
+}
+.footer {
+    position: fixed; /* Фиксированное положение */
+    right: 0px; /* Расстояние от правого края окна браузера */
+    left: 0px;
+    bottom: 0%; /* Расстояние сверху */
+    padding: 40px; /* Поля вокруг текста */ 
+    background: #231f20 /* Цвет фона */ 
+}
+
+form{
+    background: #f2f2f2;
+    padding-left: 5%;
+}
+
+.mainMenu {
+  background: #231f20;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .main-nav ul {
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+  }
+  .main-nav li {
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    vertical-align:middle;
+    line-height:30px;
+    padding:15px 10px;
+  }
+  .bankMenu li {
+    background: #231f20;
+    
+  }
+  .bankMenu li a {
+    display: inline-block;
+          position: relative;
+  }
+  .bankMenu li a span {
+    font-size: 18px;
+    display: block;
+  }
+  .note {
+    position: absolute;
+    top:-15px;
+    text-align:center;
+    right: 0;
+    left: 0;
+  }
+  .title {
+    position: relative;
+    top:10px;
+  }
